@@ -12,15 +12,15 @@
 ### 安装要求
 
 1.PHP环境为php7.1.13及以上（php低级版本仅在php5.4测试运行正常，其他版本尚未测试）
-2.服务器剩余空间至少20MB
-3.MYSQL数据库空间剩余至少20MB
+<br>2.服务器剩余空间至少20MB
+<br>3.MYSQL数据库空间剩余至少20MB
 
 ### 安装步骤
 
 1.将本项目的master分支克隆并解压在你的服务器根目录
-2.使用notepad++打开 /my/php/global.php按照注释修改相关内容并保存
-3.导入项目中的sql文件至你的数据库中
-4.绑定域名解析，生效后再浏览器中打开http://你的域名/index.php
+<br>2.使用notepad++打开 /my/php/global.php按照注释修改相关内容并保存
+<br>3.导入项目中的sql文件至你的数据库中
+<br>4.绑定域名解析，生效后再浏览器中打开http://你的域名/index.php
 
 ## DEMO
 
@@ -33,6 +33,16 @@
 
 *由于时间以及更新延迟等关系，您安装的可能和图片以及官网中的样式有所区别*
 <br>*此外，为了避免版权问题，内置数据仅提供基本的内容*
+
+## 分流地址
+
+GitHub https://github.com/KJZH001/XiaoKongIappCoursesForWeb
+<br>码云 Gitee https://gitee.com/rcraft/XiaoKongIappCoursesForWeb
+<br>晓空iApp手册_官方Q群 661246868
+
+## 发布地址以及其他说明
+
+http://blog.rcraft.ml/index.php/2019/08/15/17/34/00/185/
 
 
 ## 测试
@@ -59,10 +69,16 @@ MDUI - Web框架
 
 ## 版权说明
 
-本源码采用GPL v3协议,您可以在保留版权信息与原站地址以及开源修改过的源码情况下免费使用本源码，
-如果您向我们获取商业授权，则您在授权有效期内不受此限制
+本源码采用GPL v3协议，您可以在保留版权信息与原站地址以及开源修改过的源码情况下免费使用本源码，
+<br>和本源码有关的相关内容，如无特殊说明则一律遵循 知识共享署名-相同方式共享 4.0 国际许可协议 进行许可。
+<br>有关GPL v3开源协议的中文说明，请阅读 https://gitee.com/oschina/git-osc/wikis/License 中的GPL v3协议部分
+<br>如果您向我们获取商业授权，则您在授权有效期内不受此限制
+<br>
+<br>此外，除了在本页面中所注明的下载地址以外，其他地方均为盗版
+<br>本项目为免费开源项目，严禁盗卖！
 
 
 ## 鸣谢
 
 详情请见 http://blog.rcraft.ml/index.php/about/
+

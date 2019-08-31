@@ -96,15 +96,20 @@ require("./my/php/global.php");
  		    <li class="mdui-list-item mdui-ripple" onclick="window.open('./crypto_aes.php');">AES</li>
 			<li class="mdui-list-item mdui-ripple" onclick="window.open('./crypto_des.php');">DES</li>
 			<li class="mdui-list-item mdui-ripple" onclick="window.open('./crypto_md5.php');">MD5</li>
+			<li class="mdui-list-item mdui-ripple" onclick="window.open('./crypto_base.php');">Base64</li>
 			<li class="mdui-list-item mdui-ripple" onclick="window.open('./crypto_hmacmd5.php');">HmacMD5</li>
 			<li class="mdui-list-item mdui-ripple" onclick="window.open('./crypto_utf8.php');">RUL（即 UTF-8）</li>
 			<li class="mdui-list-item mdui-ripple" onclick="window.open('./crypto_sha.php');">HmacSHA（支持SHA1、SHA224、SHA256、SHA384、SHA512）</li>
 
 			
  		    <li class="mdui-subheader">在线工具</li>
-  		    <li class="mdui-list-item mdui-ripple">Friends</li>
 			<li class="mdui-list-item mdui-ripple">
     	       <div class="mdui-list-item-content" onclick="window.open('http://iapn.top/');">iApn for Web(不建议桌面设备访问)</div>
+			   <i class="mdui-list-item-icon mdui-icon material-icons">open_in_new</i>
+  	        </li>
+			<li class="mdui-list-item mdui-ripple">
+    	       <div class="mdui-list-item-content" onclick="window.open('https://pan.baidu.com/s/1EPf_F-4JTaNi_E-KE7t88Q');">
+			   iApp iyu基础视频教程(百度云提取码 8m76)</div>
 			   <i class="mdui-list-item-icon mdui-icon material-icons">open_in_new</i>
   	        </li>
 			

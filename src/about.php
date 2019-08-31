@@ -21,6 +21,10 @@
    {
    padding-bottom: 40px;
    }
+   .去超链接下划线
+   {
+   text-decoration:none;
+   }
   </style>
 </head>
 <!-- 声明主体 -->
@@ -41,10 +45,21 @@
     <div class="mdui-toolbar mdui-color-theme-accent">
 	<!-- 侧滑菜单按钮 -->
     <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons" mdui-drawer="{target: '#drawer'}">menu</i></a>
+	
+	<!-- 标题自适应 大屏幕 -->
+	<div class="mdui-hidden-xs-down">
 	<!-- 标题 -->
-    <a href="javascript:;" class="mdui-typo-headline">晓空iApp手册Web版</a>
+    <a href="javascript:;" class="mdui-typo-headline 去超链接下划线 mdui-text-color-white">晓空iApp手册Web版&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	<!-- 副标题 -->
-    <a href="javascript:;" class="mdui-typo-title">关于</a>
+    <a href="javascript:;" class="mdui-typo-title 去超链接下划线 mdui-text-color-white">关于</a>
+	</div>
+	
+    <!-- 标题自适应 小屏幕 -->
+	<div class="mdui-hidden-sm-up">
+	<!-- 标题 -->
+    <a href="javascript:;" class="mdui-typo-title 去超链接下划线 mdui-text-color-white">晓空iApp手册-关于</a>
+	</div>
+	
 	<!-- 将元素向两边推去 -->
     <div class="mdui-toolbar-spacer"></div>
 	<!-- 右菜单按钮 -->

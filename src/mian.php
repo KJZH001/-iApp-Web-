@@ -234,7 +234,7 @@ require("./my/php/global.php");
 		<br>
 		<br>
 		   <!-- 卡片 MD配色 -->
-		<div class="mdui-card mdui-ripple mdui-hoverable" id="配色卡片">
+		<div class="mdui-card mdui-ripple mdui-hoverable" onclick="window.open('./md_color.php');">
   		   <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
   		   <div class="mdui-card-media">
 		   <div class="card-mdps mdui-color-theme-accent">
